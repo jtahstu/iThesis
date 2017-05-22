@@ -1,0 +1,18 @@
+@media print {
+.topbar {display:none}
+.layout_all{overflow:hidden;position:relative;background:none;}
+
+.break_before { page-break-before: always; }
+.break_after { page-break-after: always; }
+.layout_all{overflow:auto;position:relative;background:#444;}
+.all{width:640px;background:#fefcf1 url("../images/stamp.gif") no-repeat;border:none;padding:0px;padding-top:100px;margin:0px auto;line-height:2em;position:relative;}
+.tit{padding:0 0 0 0;line-height:2em;margin:0;border-style:none none double none;border-color:#444;}
+.noprint{display:none}
+.headimg{display:block;margin:0 0 -20px 0;}
+.printcorp{display:block;width:640px;margin:20px auto;text-align:center;}
+.printlogo{display:block;position:absolute;left:0;top:0}
+
+
+
+
+

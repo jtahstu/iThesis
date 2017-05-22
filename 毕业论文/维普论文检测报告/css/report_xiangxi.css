@@ -1,0 +1,156 @@
+.layout_left,.layout_right{
+scrollbar-shadow-color:#fff;
+scrollbar-highlight-color:#fff;
+scrollbar-3dlight-color:#000;
+scrollbar-darkshadow-color:#000;
+scrollbar-arrow-color:#fff;
+scrollbar-face-color:#222;
+scrollbar-track-color:#ccc;
+overflow-y:scroll;
+}
+
+* html,* html body{background-image:url(about:blank);_background-attachment:fixed} 
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6,pre, form, fieldset, input, textarea, p, blockquote, th, td {padding: 0; margin:0;}
+body{padding:0 0 30px 0;background:url("../images/bodybg.gif") repeat;_background-attachment: fixed;/* prevent screen flash in IE6 确保滚动条滚动时，元素不闪动*/font-size:12px;font-family:'宋体';color:#252525;word-wrap:break-word;word-break:break-all;}
+fieldset, img {border:0;vertical-align:middle;}
+table {border-collapse: collapse; border-spacing: 0;}
+ol, ul {list-style: none;}
+address, caption, cite,em, strong, th {font-weight: normal; font-style: normal;}
+th,td {text-align: left;}
+i,b,strong,em{font-style:normal;}
+input,select{vertical-align:middle;}
+
+a{color:#0e53b0;text-decoration:none;}
+a:hover{color:red;text-decoration:underline;}
+a:visited{text-decoration:none;}
+
+/*################字体样式######################*/
+.red{color:#ff3000;}
+.blue{color:#259de9;}
+.green{color:#628200;}
+.gray{color:#666;}
+.black{color:#252525;}
+.white{color:white;}
+.bold{font-weight:bold;}
+.normal{font-weight:normal;}
+.f24{font-size:24px;}
+.f22{font-size:22px;}
+.f20{font-size:20px;}
+.f18{font-size:18px;}
+.f16{font-size:16px;}
+.f14{font-size:14px;}
+.f13{font-size:13px;}
+.f12{font-size:12px;}
+.f11{font-size:11px;}
+.f10{font-size:10px;}
+.f9{font-size:9px;}
+.f8{font-size:8px;}
+.tahoma{font-family:"Tahoma";}
+.song{font-family:"宋体";}
+.heiti{font-family:"黑体";}
+.yahei{font-family:"微软雅黑";}
+.verdana{font-family:"Verdana";}
+.a_left{text-align:left;}
+.a_right{text-align:right;}
+.a_center{text-align:center;}
+.block{display:block;}
+.float_left{float:left;}
+.float_right{float:right;}
+.dec_none{text-decoration:none;}
+.dec_line{text-decoration:underline;}
+.disc{list-style:inside disc}
+.square{list-style:inside square}
+.circle{list-style:inside circle}
+
+
+.input_400{width:380px;height:35px;background:url("../images/inputbg_400.gif") no-repeat;border:none;line-height:35px;padding:0 10px;}
+.btn_upfile{width:113px;height:35px;background:url("../images/btn_upfile.gif") no-repeat;border:none;cursor:pointer;}
+.btn_upfile02{width:113px;height:35px;background:url("../images/btn_upfile02.gif") no-repeat;border:none;cursor:pointer;}
+.btn_120{width:120px;height:35px;background:url("../images/btn_120.gif") no-repeat;border:none;cursor:pointer;line-height:35px;}
+
+.topbar{height:70px;background:#e2e2e2;position:relative;overflow:hidden;border-bottom:2px solid #545454}
+.reportnav{position:absolute;left:520px;top:20px;}
+.reportnav li{display:block;float:left;margin-right:10px;}
+.reportnav a{display:block;padding:10px 15px;background:#e9e9e9;border:1px solid #888;color:black;text-decoration:none;font-size:12px;font-weight:bold;}
+.reportnav a:hover{background:#f6dfdb;color:#ff2a00;border:1px solid #b30000}
+
+.layout_body{height:100%;overflow:hidden;background:none;border-bottom:2px solid #000;}
+.tit{padding:100px 0 0 0;border-style:none none double none;border-color:#444;}
+.tit h1{line-height:1.6em}
+.sidebars{padding:15px;line-height:2em;border-bottom:1px dashed #484848;}
+.sidebars p{display:block;padding:5px;}
+.detail a:hover{background:red;color:white;text-decoration:none;}
+.headimg{display:none}
+
+
+/*详细报告部分*/
+.layout_all{overflow:hidden;position:relative;background:#444;}
+.all{width:800px;background:#fff url("../images/vpcslogo.gif") no-repeat 20px 20px;border:3px solid black;padding:15px;margin:50px auto;line-height:2em;position:relative;}
+.ztbg{width:100%;margin:10px auto;border:1px solid #aaa;}
+.ztbg th,.ztbg td{padding:3px 5px;border:1px solid #aaa;text-align:center;}
+.ztbg td{line-height:2em;}
+.ztbg th{background:#ccc;}
+.ztbg .tablebg{background:url("../images/tablebg.gif") repeat-x;}
+
+.datacheck,.datacheck2,.datacheck3{margin-top:10px;}
+.datacheck td{padding:3px 50px 3px 0px;line-height:2em;}
+.datacheck2 td{padding:3px 20px 3px 0px;line-height:2em;width:30%;}
+.datacheck3 td{padding:3px 5px;line-height:2em;}
+
+.printlogo{display:none;}
+.repos{line-height:2em;margin:10px 0;padding:10px 0;border-style:none none double none;border-color:#444;}
+
+.corp{width:95%;margin:0 auto;padding:20px;text-align:center;line-height:2em;color:#888}
+.corp a{color:#888;}
+.corp a:hover{color:#888;}
+.printcorp{display:none;width:640px;margin:0 auto;text-align:center;}
+
+
+img.percentImage1 {
+ background: white url(../images/percentImage_back1.png) top left no-repeat;
+ padding: 0;
+ margin: 5px 0 0 0;
+ background-position: 1px 0;
+}
+
+img.percentImage2 {
+ background: white url(../images/percentImage_back2.png) top left no-repeat;
+ padding: 0;
+ margin: 5px 0 0 0;
+ background-position: 1px 0;
+}
+
+img.percentImage3 {
+ background: white url(../images/percentImage_back3.png) top left no-repeat;
+ padding: 0;
+ margin: 5px 0 0 0;
+ background-position: 1px 0;
+}
+
+img.percentImage4 {
+ background: white url(../images/percentImage_back4.png) top left no-repeat;
+ padding: 0;
+ margin: 5px 0 0 0;
+ background-position: 1px 0;
+}
+img.percentImage5 {
+ background: white url(../images/percentImage_back5.png) top left no-repeat;
+ padding: 0;
+ margin: 5px 0 0 0;
+ background-position: 1px 0;
+}
+
+.datatb td{width:30%}
+
+
+.position-rel{ position:relative;}
+.iconprintersettings{ position:absolute; right:0; top:0; width:100px; height:32px; font-size:12px;}
+.iconprintersettings>img{ position:absolute; left:0; top:6px; width:20px; height:20px; }
+.iconprintersettings-link{ position:absolute; left:22px;}
+
+
+
+
+
+
+
